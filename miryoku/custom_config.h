@@ -40,7 +40,7 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 
 #define MIRYOKU_LAYER_NUM \
 &kp LBRC,           &kp 7,              &kp 8,              &kp 9,              &kp RBRC,           U_NA,              TD(U_TD_U_BASE),   TD(U_TD_U_EXTRA),  TD(U_TD_U_TAP),    TD(U_TD_BOOT),     \
-&kp SCLN,           &kp 4,              &kp 5,              &kp 6,              &kp EQL,            U_NA,              &kp LCTL,           &kp LSFT,           &kp LALT,           &kp LGUI,           \
+&kp SCLN,           &kp 4,              &kp 5,              &kp 6,              &kp EQL,            U_NA,              &kp LCTL,           &kp LSHFT,           &kp LALT,           &kp LGUI,           \
 &kp GRV,            &kp 1,              &kp 2,              &kp 3,              &kp BSLS,           U_NA,              TD(U_TD_U_NUM),    TD(U_TD_U_NAV),    &kp ALGR,           U_NA,              \
 U_NP,              U_NP,              &kp DOT,            &kp 0,              &kp MINS,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
