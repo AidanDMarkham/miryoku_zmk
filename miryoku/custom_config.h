@@ -1,3 +1,6 @@
+#define U_TAPPING_TERM 170
+#define MIRYOKU_CLIPBOARD_WIN
+
 #define MIRYOKU_LAYER_BASE \
 &kp Q,             &kp W,             &kp F,             &kp P,             &kp B,             &kp J,             &kp L,             &kp U,             &kp Y,             &kp SQT,              \
 U_MT(LGUI, A),     U_MT(LALT, R),     U_MT(LSHFT, S),    U_MT(LCTRL, T),    &kp G,             &kp M,             U_MT(LCTRL, N),    U_MT(LSHFT, E),    U_MT(LALT, I),     U_MT(LGUI, O),        \
