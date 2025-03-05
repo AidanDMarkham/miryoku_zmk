@@ -5,18 +5,18 @@
 &kp Q,             &kp W,             &kp F,             &kp P,             &kp B,             &kp J,             &kp L,             &kp U,             &kp Y,             &kp SQT,           \
 &kp A,             &kp R,             &kp S,             &kp T,             &kp G,             &kp M,             &kp N,             &kp E,             &kp I,             &kp O,             \
 &kp Z,             &kp X,             &kp C,             &kp D,             &kp V,             &kp K,             &kp H,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
-U_NP,              U_NP,              &mo U_FUN,         &mo U_NAV,         &kp LSHFT,         &kp SPACE,         &mo U_NUM,         &mo U_SYM,         U_NP,              U_NP
+U_NP,              U_NP,              &mo U_FUN,         &mo U_NAV,         &kp SPACE,         &kp LSHFT,         &mo U_NUM,         &mo U_SYM,         U_NP,              U_NP
 
 #define MIRYOKU_LAYER_NAV \
-U_BOOT,            U_NA,              U_NA,              U_NA,              U_NA,              U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
+&kp ESC,           U_NA,              U_NA,              U_NA,              U_NA,              U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
 &sk LGUI,          &sk LALT,          &sk LSHFT,         &sk LCTRL,         U_NA,              &u_caps_word,      &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         \
-U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              &kp HOME,          &kp BSPC,          &kp PG_DN,         &kp PG_UP,         &kp END,           \
+U_NA,              U_NA,              U_NA,              &kp BSCP,          U_NA,              &kp HOME,          &kp BSPC,          &kp PG_DN,         &kp PG_UP,         &kp END,           \
 U_NP,              U_NP,              &trans,            &trans,            &trans,            &kp RET,           &trans,            &trans,            U_NP,              U_NP
 
 #define MIRYOKU_LAYER_NUM \
 &kp LBKT,          &kp N7,            &kp N8,            &kp N9,            &kp RBKT,          U_NA,              U_NA,              U_NA,              U_NA,              U_BOOT,            \
 &kp SEMI,          &kp N4,            &kp N5,            &kp N6,            &kp EQUAL,         U_NA,              &sk LCTRL,         &sk LSHFT,         &sk LALT,          &sk LGUI,          \
-&kp GRAVE,         &kp N1,            &kp N2,            &kp N3,            &kp BSLH,          U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              \
+&kp GRAVE,         &kp N1,            &kp N2,            &kp N3,            &kp BSLH,          U_NA,              U_NA,              U_NA,              U_NA,              &kp DEL,           \
 U_NP,              U_NP,              &kp DOT,           &kp N0,            &kp MINUS,         &trans,            &trans,            &trans,            U_NP,              U_NP
 
 #define MIRYOKU_LAYER_SYM \
