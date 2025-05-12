@@ -8,9 +8,9 @@
 U_NP,              U_NP,              &mo U_FUN,         &mo U_NAV,         &kp SPACE,         &kp LSHFT,         &mo U_NUM,         &mo U_SYM,         U_NP,              U_NP
 
 #define MIRYOKU_LAYER_NAV \
-&kp ESC,           U_NA,              U_NA,              &kp LA(TAB),       &kp LA(LS(TAB)),   U_UND,             U_CPY,             U_PST,             U_CUT,             U_RDO,             \
+&kp ESC,           U_NA,              U_NA,              &kp LA(TAB),       &kp LA(LS(TAB)),   U_UND,             U_RDO,             &kp PG_DN,         &kp PG_UP,         U_NA,              \
 &sk LGUI,          &sk LALT,          &sk LSHFT,         &sk LCTRL,         &kp TAB,           &u_caps_word,      &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         \
-U_NA,              U_CUT,             U_CPY,             &kp BSPC,          U_PST,             &kp HOME,          &kp BSPC,          &kp PG_DN,         &kp PG_UP,         &kp DEL,           \
+U_NA,              U_CUT,             U_CPY,             &kp BSPC,          U_PST,             &kp HOME,          &kp BSPC,          U_NA,              U_NA,              &kp DEL,           \
 U_NP,              U_NP,              U_NA,              &trans,            U_NA,              &kp RET,           &kp TAB,           &kp END,           U_NP,              U_NP
 
 #define MIRYOKU_LAYER_NUM \
@@ -20,8 +20,8 @@ U_NP,              U_NP,              U_NA,              &trans,            U_NA
 U_NP,              U_NP,              &kp DOT,           &kp N0,            &kp MINUS,         U_NA,              &trans,            U_NA,              U_NP,              U_NP
 
 #define MIRYOKU_LAYER_SYM \
-&kp EXCL,          &kp AMPS,          &kp AT,           &kp HASH,           &kp DLLR,          U_NA,              U_NA,              U_NA,              U_NA,              U_BOOT,            \
-&kp COLON,         &kp LBRC,          &kp LBKT,         &kp LPAR,           &kp CARET,         U_NA,              &sk LCTRL,         &sk LSHFT,         &sk LALT,          &sk LGUI,          \
+&kp EXCL,          &kp AMPS,          &kp AT,           &kp HASH,           &kp CARET,         U_NA,              U_NA,              U_NA,              U_NA,              U_BOOT,            \
+&kp COLON,         &kp LBRC,          &kp LBKT,         &kp LPAR,           &kp DLLR,          U_NA,              &sk LCTRL,         &sk LSHFT,         &sk LALT,          &sk LGUI,          \
 &kp GRAVE,         &kp RBRC,          &kp RBKT,         &kp RPAR,           &kp BSLH,          U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              \
 U_NP,              U_NP,              &kp PIPE,         &kp TILDE,          &kp UNDER,         U_NA,              U_NA,              &trans,            U_NP,              U_NP
 
