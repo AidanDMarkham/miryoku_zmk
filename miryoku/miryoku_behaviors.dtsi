@@ -1,10 +1,11 @@
 // Copyright 2022 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
+&sk {
+    release-after-ms = <200>;
+};
+
 / {
-  &sk {
-      release-after-ms = <200>;
-  };
   behaviors {
     u_mt: u_mt {
       compatible = "zmk,behavior-hold-tap";
