@@ -9,7 +9,7 @@ U_NP,              U_NP,              &mo U_FUN,         &mo U_NAV,         &kp 
 #define MIRYOKU_LAYER_NAV \
 &kp ESC,           U_NA,              U_NA,              &kp LA(TAB),       &kp LA(LS(TAB)),   U_UND,             U_RDO,             &kp PG_DN,         &kp PG_UP,         U_NA,              \
 &sk LGUI,          &sk LALT,          &sk LSHFT,         &sk LCTRL,         &kp TAB,           &u_caps_word,      &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         \
-U_NA,              U_CUT,             U_CPY,             &kp BSPC,          U_PST,             &kp HOME,          &kp BSPC,          U_NA,              U_NA,              &kp DEL,           \
+U_UND,             U_CUT,             U_CPY,             &kp BSPC,          U_PST,             &kp HOME,          &kp BSPC,          U_NA,              U_NA,              &kp DEL,           \
 U_NP,              U_NP,              U_NA,              &trans,            U_NA,              &kp RET,           &kp TAB,           &kp END,           U_NP,              U_NP
 
 #define MIRYOKU_LAYER_NUM \
