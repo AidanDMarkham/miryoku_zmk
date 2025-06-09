@@ -1,4 +1,3 @@
-#define U_TAPPING_TERM 170
 #define MIRYOKU_CLIPBOARD_WIN
 
 #define MIRYOKU_LAYER_BASE \
@@ -14,10 +13,10 @@ U_NA,              U_CUT,             U_CPY,             &kp BSPC,          U_PS
 U_NP,              U_NP,              U_NA,              &trans,            U_NA,              &kp RET,           &kp TAB,           &kp END,           U_NP,              U_NP
 
 #define MIRYOKU_LAYER_NUM \
-&kp PRCNT,         &kp morph_7,       &kp morph_8,      &kp morph_9,        &kp ASTRK,         U_NA,              U_NA,              U_NA,              U_NA,              &kp LC(LA(DEL)),   \
-&kp SEMI,          &kp morph_4,       &kp morph_5,      &kp morph_6,        &kp EQUAL,         &kp GREATER_THAN,  &sk LCTRL,         &sk LSHFT,         &sk LALT,          &sk LGUI,          \
-&kp SLASH,         &kp morph_1,       &kp morph_2,      &kp morph_3,        &kp PLUS,          U_NA,              &kp BSPC,          U_NA,              U_NA,              &kp DEL,           \
-U_NP,              U_NP,              &kp DOT,          &kp morph_0,        &kp MINUS,         U_NA,              &trans,            U_NA,              U_NP,              U_NP
+&kp PRCNT,         &morph_7,          &morph_8,         &morph_9,        &kp ASTRK,         U_NA,              U_NA,              U_NA,              U_NA,              &kp LC(LA(DEL)),   \
+&kp SEMI,          &morph_4,          &morph_5,         &morph_6,        &kp EQUAL,         &kp GREATER_THAN,  &sk LCTRL,         &sk LSHFT,         &sk LALT,          &sk LGUI,          \
+&kp SLASH,         &morph_1,          &morph_2,         &morph_3,        &kp PLUS,          U_NA,              &kp BSPC,          U_NA,              U_NA,              &kp DEL,           \
+U_NP,              U_NP,              &kp DOT,          &morph_0,        &kp MINUS,         U_NA,              &trans,            U_NA,              U_NP,              U_NP
 
 #define MIRYOKU_LAYER_SYM \
 &kp EXCL,          &kp AMPS,          &kp AT,           &kp HASH,           &kp CARET,         U_NA,              U_NA,              U_NA,              U_NA,              U_BOOT,            \
