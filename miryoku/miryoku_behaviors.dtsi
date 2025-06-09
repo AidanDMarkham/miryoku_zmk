@@ -13,60 +13,70 @@
             #binding-cells = <0>;
             bindings = <&kp N0>, <&kp KP_N0>;
             mods = <(MOD_LALT)>;
+            keep-mods = <(MOD_LALT)>;
         };
         morph_1: N1_KP1 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp N1>, <&kp KP_N1>;
             mods = <(MOD_LALT)>;
+			keep-mods = <(MOD_LALT)>;
         };
         morph_2: N2_KP2 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp N2>, <&kp KP_N2>;
             mods = <(MOD_LALT)>;
+			keep-mods = <(MOD_LALT)>;
         };
         morph_3: N3_KP3 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp N3>, <&kp KP_N3>;
             mods = <(MOD_LALT)>;
+			keep-mods = <(MOD_LALT)>;
         };
         morph_4: N4_KP4 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp N4>, <&kp KP_N4>;
             mods = <(MOD_LALT)>;
+			keep-mods = <(MOD_LALT)>;
         };
         morph_5: N5_KP5 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp N5>, <&kp KP_N5>;
             mods = <(MOD_LALT)>;
+			keep-mods = <(MOD_LALT)>;
         };
         morph_6: N6_KP6 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp N6>, <&kp KP_N6>;
             mods = <(MOD_LALT)>;
+			keep-mods = <(MOD_LALT)>;
         };
         morph_7: N7_KP7 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp N7>, <&kp KP_N7>;
             mods = <(MOD_LALT)>;
+			keep-mods = <(MOD_LALT)>;
         };
         morph_8: N8_KP8 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp N8>, <&kp KP_N8>;
             mods = <(MOD_LALT)>;
+			keep-mods = <(MOD_LALT)>;
         };
         morph_9: N9_KP9 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp N9>, <&kp KP_N9>;
             mods = <(MOD_LALT)>;
+			keep-mods = <(MOD_LALT)>;
         };
 
     // Miryoku original behaviors 
