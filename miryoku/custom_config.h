@@ -13,10 +13,10 @@ U_UND,             U_CUT,             U_CPY,             &kp BSPC,          U_PS
 U_NP,              U_NP,              U_NA,              &trans,            U_NA,              &kp RET,           &kp TAB,           &kp END,           U_NP,              U_NP
 
 #define MIRYOKU_LAYER_NUM \
-&kp PRCNT,         &morph_7,          &morph_8,         &morph_9,        &kp ASTRK,         U_NA,              U_NA,              U_NA,              U_NA,              &kp LC(LA(DEL)),   \
-&kp SEMI,          &morph_4,          &morph_5,         &morph_6,        &kp EQUAL,         &kp GREATER_THAN,  &sk LCTRL,         &sk LSHFT,         &sk LALT,          &sk LGUI,          \
-&kp SLASH,         &morph_1,          &morph_2,         &morph_3,        &kp PLUS,          U_NA,              &kp BSPC,          U_NA,              U_NA,              &kp DEL,           \
-U_NP,              U_NP,              &kp DOT,          &morph_0,        &kp MINUS,         U_NA,              &trans,            U_NA,              U_NP,              U_NP
+&kp PRCNT,         &kp KP_N7,         &kp KP_N8,        &kp KP_N9,       &kp ASTRK,         U_NA,              U_NA,              U_NA,              U_NA,              &kp LC(LA(DEL)),   \
+&kp SEMI,          &kp KP_N4,         &kp KP_N5,        &kp KP_N6,       &kp EQUAL,         &kp GREATER_THAN,  &sk LCTRL,         &sk LSHFT,         &sk LALT,          &sk LGUI,          \
+&kp SLASH,         &kp KP_N1,         &kp KP_N2,        &kp KP_N3,       &kp PLUS,          U_NA,              &kp BSPC,          U_NA,              U_NA,              &kp DEL,           \
+U_NP,              U_NP,              &kp DOT,          &kp KP_N0,       &kp MINUS,         U_NA,              &trans,            U_NA,              U_NP,              U_NP
 
 #define MIRYOKU_LAYER_SYM \
 &kp EXCL,          &kp AMPS,          &kp AT,           &kp HASH,           &kp CARET,         U_NA,              U_NA,              U_NA,              U_NA,              U_BOOT,            \
